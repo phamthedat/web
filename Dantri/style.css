@@ -1,0 +1,563 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0em;
+    color: #333333;
+    position: relative;
+    background: #fbf6f6;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.thumbnail {
+    padding: 0px;
+    border: none;
+    background: none;
+    margin: 0px;
+    overflow: hidden;
+    border: 1px solid #e6e6e6;
+    padding: 3px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1010px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.bg_container {
+    background: #fff;
+}
+
+
+/* CSS HEADER */
+
+.header {
+    background: #fff;
+}
+
+.top_header .logo {
+    float: left;
+    max-width: 200px;
+    margin: 5px 30px 15px 0px;
+}
+
+.top_header .search {
+    float: left;
+}
+
+.top_header .links {
+    float: right;
+    max-width: 450px;
+    margin: 7px 0px 0px 0px;
+}
+
+.top_header .search {
+    position: relative;
+    width: 300px;
+    margin: 23px 0px 0px 0px;
+}
+
+.top_header .search input[type="text"] {
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    width: 100%;
+    padding: 3px;
+}
+
+.top_header .search input[type="submit"] {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #e82c2b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 4px 15px;
+}
+
+.links a {
+    font: 700 10px/22px Tahoma;
+    color: #000;
+    text-indent: 30px;
+    margin: 4px 0 0 4px;
+    display: inline-block;
+}
+
+.icon-game {
+    background: url(https://dantricdn.com/web_images/khcn.jpg) 0 0 no-repeat;
+    height: 22px;
+    width: 93px;
+}
+
+.icon-ads {
+    background-image: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png);
+    background-position: -77px -44px;
+    height: 22px;
+    width: 80px;
+}
+
+.icon-duhoc {
+    background-image: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png);
+    float: left;
+    overflow: hidden;
+    background-position: -0 -44px;
+    height: 22px;
+    width: 74px;
+}
+
+.icon-tuyensinh {
+    background-image: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png);
+    float: left;
+    overflow: hidden;
+    background-position: -77px -66px;
+    height: 22px;
+    width: 89px;
+}
+
+.icon-tuanbao2 {
+    background: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png) no-repeat;
+    text-indent: 30px !important;
+    float: left;
+    background-position: -0 -0;
+    height: 22px;
+    width: 77px;
+}
+
+.icon-bussiness {
+    background: url(https://dantricdn.com/web_images/icon_bao-in2.png) no-repeat;
+    text-indent: 45px;
+    height: 22px;
+    width: 93px;
+}
+
+.icon-humane2 {
+    background-image: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png);
+    float: left;
+    overflow: hidden;
+    background-position: -0 -90px;
+    height: 22px;
+    width: 74px;
+}
+
+.icon-giaitri {
+    background: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png) no-repeat;
+    float: left;
+    background-position: -77px -22px;
+    height: 22px;
+    width: 80px;
+}
+
+.icon-forum2 {
+    background-image: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png);
+    float: left;
+    overflow: hidden;
+    background-position: -77px -0;
+    height: 22px;
+    width: 89px;
+}
+
+.icon-tienganh {
+    background: url(https://static.dantricdn.com/App_Themes/Default/Images/dantri_sprite3.png) no-repeat;
+    float: left;
+    background-position: -0 -22px;
+    height: 22px;
+    width: 77px;
+}
+
+.nav_primary ul li {
+    float: left;
+}
+
+.nav_primary ul li a {
+    padding: 5px 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 11px;
+    border-left: 1px solid #3076b7;
+}
+
+.nav_primary ul li a i.fa {
+    font-size: 13px;
+}
+
+.nav_primary {
+    background: url(https://static.dantricdn.com/App_Themes/Default/Images/allmenu.png);
+}
+
+.nav_primary .top_header {
+    box-shadow: 1px 3px 7px #e6e6e6;
+    margin: 0px 0px 7px 0px;
+}
+
+.nav_primary ul li a:hover {
+    background: #598dc8;
+}
+
+.big_post .adversiting_bigpost {
+    text-align: right;
+}
+
+.big_post .big_post_left .post_meta {}
+
+.big_post .big_post_left .post_meta a {
+    color: #004175;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 10px 0px;
+    display: block;
+}
+
+.big_post_left,
+.adversiting_bigpost {
+    margin: 15px 0px;
+}
+
+.big_post .big_post_left .bigpost_lienquan p a {
+    font-size: 13px;
+    color: #004175;
+    font-weight: 600;
+}
+
+.list_bigpost_right h1 {
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    background: url(https://static.dantricdn.com/App_Themes/Default/Images/sprite-5.jpg) no-repeat;
+    background-position: 0 -306px;
+    padding: 4px 0px 4px 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+.list_bigpost_right {
+    border: 1px solid #e6e6e6;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.list_bigpost_right ul li a {
+    font-size: 13px;
+    color: #004175;
+}
+
+.list_bigpost_right ul li {
+    position: relative;
+    padding: 0px 10px 0px 20px;
+    margin: 0px 0px 10px 0px;
+}
+
+.list_bigpost_right ul li::before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    content: "";
+    left: 10px;
+    top: 7px;
+}
+
+.list_bigpost_right ul {
+    padding: 0px 15px 20px 15px 15px;
+}
+
+.adversiting_bigpost img {
+    margin: 0px 0px 20px 0px;
+}
+
+.img_adversiting img {
+    width: 100%;
+}
+
+.big_post_topic {
+    clear: both;
+    display: table;
+    margin: 0px 0px 15px 0px;
+}
+
+.big_post_topic figure {
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.list_post_topic_item .menu_list_topic span {
+    float: left;
+    background: #004175;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 13px;
+    position: relative;
+    margin: 0px 20px 0px 0px;
+}
+
+.list_post_topic_item .menu_list_topic {
+    display: table;
+    width: 100%;
+    /* border-bottom: 1px solid #e6e6e6; */
+    margin: 0px 0px 20px 0px;
+    background: #f9f9f9;
+}
+
+.list_post_topic_item .menu_list_topic span::before {
+    content: "";
+    position: absolute;
+    right: -17px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #004175;
+    transform: rotate(-225deg);
+    top: 1px;
+}
+
+.list_post_topic_item .menu_list_topic ul li {
+    float: left;
+    padding: 0px 10px;
+    margin: 5px 0px 0px 0px;
+    position: relative;
+}
+
+.list_post_topic_item .menu_list_topic ul li::before {
+    width: 1px;
+    height: 8px;
+    content: "";
+    position: absolute;
+    left: 0px;
+    background: #618bad;
+    top: 6px;
+}
+
+.list_post_topic_item .menu_list_topic ul li:first-child::before {
+    display: none;
+}
+
+.list_post_topic_item {
+    display: table;
+    width: 100%;
+    border-bottom: 1px dashed #e6e6e6;
+    padding: 20px 0px;
+}
+
+.list_post_topic_lienquan {
+    clear: both;
+}
+
+.list_post_topic_lienquan p {
+    padding: 0px 0px 0px 15px;
+    position: relative;
+}
+
+.big_post_topic a {
+    display: block;
+    margin: 0px 0px 5px 0px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.list_post_topic_lienquan p::before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: red;
+    content: "";
+    left: 2px;
+    top: 8px;
+}
+
+.list_post_topic_lienquan p {
+    margin: 0px;
+}
+
+.list_post_topic_lienquan a {
+    color: #004175;
+}
+
+.world_cup {
+    background-image: url(https://dantricdn.com/web_images/worldcup-event.png);
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 100%;
+}
+
+.bigpost_worldcup figure {
+    float: left;
+    margin: 0px 15px 0px 0px;
+}
+
+.list_child_world_cup {
+    clear: both;
+}
+
+.bigpost_worldcup {
+    display: table;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+.bigpost_worldcup .post_meta a {
+    font-weight: 700;
+    font-size: 17px;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+
+.list_child_world_cup a {
+    font-weight: 600;
+    display: block;
+    margin: 10px 0px 0px 0px;
+}
+
+.list_child_world_cup img {
+    width: 100%;
+}
+
+.adversiting_right_under {
+    text-align: right;
+    margin: 20px 0px 0px 0px;
+}
+
+.adversiting_right_under img {
+    margin: 0px 0px 10px 0px;
+}
+
+.nav_footer ul li {
+    float: left;
+}
+
+.nav_footer ul li a {
+    padding: 0px 5px;
+    font-size: 11px;
+    border-left: 1px solid #e6e6e6;
+}
+
+.nav_footer ul li:first-child a {
+    border-left: none;
+}
+
+.nav_footer {
+    display: table;
+    width: 100%;
+}
+
+.text_left {
+    float: left;
+    max-width: 540px;
+    margin: 0px 70px 0px 0px;
+}
+
+footer {
+    padding: 20px 15px;
+    display: table;
+    width: 100%;
+    background: #f0fbff;
+    margin: 10px 0px 0px 0px;
+}
+
+.text_right {
+    float: left;
+}
+
+.text_right p:nth-child(2) {
+    margin: 10px 0px;
+}
+
+.single_post_content p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.single_post_content span {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+
+.single_post_detail h1.title_header {
+    color: #004175;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    margin: 20px 0px 15px 0px;
+    display: block;
+}
+
+.single_post_detail span em {
+    font-style: normal;
+    color: #fff;
+    font-weight: 600;
+    padding: 0px 10px;
+    background: green;
+    border-radius: 3px;
+    margin: 0px 5px 0px 0px;
+}
+
+.single_post_detail .textwidget img {
+    margin: 0px 0px 10px 0px;
+}
+
+.share_fb {
+    display: block;
+    margin: 15px 0px 15px 0px;
+}
+
+.share_fb a {
+    color: #fff;
+    padding: 2px 10px;
+    background: #3b5a9b;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0px 5px 0px 0px;
+}
+
+
+/* EFFECT HOVER IMAGE*/
+
+.thumbnail img {
+    transition: all 0.3s;
+}
+
+.thumbnail:hover img {
+    transform: scale(1.1);
+}
+
+
+/* HOVER TEXT CHANGE COLOR*/
+
+.post_meta:hover a,
+.bigpost_lienquan p a:hover,
+.list_bigpost_right ul li a:hover,
+.menu_list_topic li a:hover,
+.list_post_topic_lienquan p a:hover {
+    color: #ce0404 !important;
+}
